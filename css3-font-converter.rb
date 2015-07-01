@@ -8,14 +8,14 @@ class Css3FontConverter < Formula
   version "2"
   sha256 ""
 
-  # depends_on "cmake" => :build
-  # depends_on :x11 # if your formula requires any X11/XQuartz components
+  depends_on "fontforge"
+  depends_on "ttf2eot"
+  depends_on "ttfautohint"
+  depends_on "woff2"
+  depends_on "sfnt2woff"
 
   def install
-    # system "cmake", ".", *std_cmake_args
-    system "make", "clean", "all" # if this fails, try separate make/make install steps
-    bin.install "woff2_compress"
-    bin.install "woff2_decompress"
+    
   end
 
   test do
