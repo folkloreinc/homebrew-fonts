@@ -5,7 +5,7 @@
 class Css3FontConverter < Formula
   homepage "https://github.com/zoltan-dulac/css3FontConverter"
   url "https://github.com/zoltan-dulac/css3FontConverter.git"
-  version "2"
+  version "3"
   sha256 ""
 
   depends_on "fontforge"
