@@ -5,7 +5,6 @@
 class Woff2 < Formula
   homepage "https://github.com/google/woff2"
   url "https://github.com/google/woff2.git"
-  version "2"
   sha256 ""
 
   # depends_on "cmake" => :build
