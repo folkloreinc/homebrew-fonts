@@ -2,9 +2,9 @@
 #                /usr/local/Library/Contributions/example-formula.rb
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class Woff2 < Formula
-  homepage "https://github.com/google/woff2"
-  url "https://github.com/google/woff2.git"
+class Css3FontConverter < Formula
+  homepage "https://github.com/zoltan-dulac/css3FontConverter"
+  url "https://github.com/zoltan-dulac/css3FontConverter.git"
   version "2"
   sha256 ""
 
