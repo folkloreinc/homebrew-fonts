@@ -5,7 +5,7 @@
 class Css3FontConverter < Formula
   homepage "https://github.com/zoltan-dulac/css3FontConverter"
   url "https://github.com/zoltan-dulac/css3FontConverter.git"
-  version "3"
+  version "4"
   sha256 ""
 
   depends_on "fontforge"
@@ -15,7 +15,8 @@ class Css3FontConverter < Formula
   depends_on "sfnt2woff"
 
   def install
-    bin.install "convertFonts.sh"
+    bin.install "*.sh"
+    bin.install "*.pe"
   end
 
   test do
