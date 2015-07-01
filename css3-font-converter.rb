@@ -15,7 +15,7 @@ class Css3FontConverter < Formula
   depends_on "sfnt2woff"
 
   def install
-    
+    bin.install "convertFonts.sh"
   end
 
   test do
