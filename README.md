@@ -9,7 +9,7 @@ Install css3FontConverter with Homebrew
 ### Usage
 
 ```shell
-brew tap forlkloreatelier/fonts
+brew tap folkloreatelier/fonts
 brew update
 brew install css3-font-converter
 ```
