@@ -11,8 +11,8 @@ class Css3FontConverter < Formula
   depends_on "fontforge"
   depends_on "ttf2eot"
   depends_on "ttfautohint"
-  depends_on "woff2"
-  depends_on "sfnt2woff"
+  depends_on "folkloreatelier/fonts/woff2"
+  depends_on "folkloreatelier/fonts/sfnt2woff"
 
   def install
     bin.install Dir["*.sh"]
