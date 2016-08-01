@@ -4,9 +4,7 @@
 
 class Woff2 < Formula
   homepage "https://github.com/google/woff2"
-  url "https://github.com/google/woff2.git"
-  version "2"
-  sha256 ""
+  url "https://github.com/google/woff2.git", :revision => "afbecce5ff16faf92ce637eab991810f5b66f803", :using => :git
 
   # depends_on "cmake" => :build
   # depends_on :x11 # if your formula requires any X11/XQuartz components
