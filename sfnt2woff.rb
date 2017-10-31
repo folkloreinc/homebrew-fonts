@@ -6,7 +6,7 @@ class Sfnt2woff < Formula
   homepage "http://people.mozilla.org/~jkew/woff/"
   url "https://github.com/bramstein/sfnt2woff/archive/master.zip"
   version "2009-10-04"
-  sha256 "7713630d2f43320a1d92e2dbb014ca3201caab1dd4c0ab92816016824c680d96"
+  sha256 "cf3303c323a874891d17b8d7c72bc241b29be88ca5ee1fa5089a95b0b8dc7408"
 
   def install
     system "make"
