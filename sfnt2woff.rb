@@ -4,7 +4,7 @@
 
 class Sfnt2woff < Formula
   homepage "http://people.mozilla.org/~jkew/woff/"
-  url "http://people.mozilla.org/~jkew/woff/woff-code-latest.zip"
+  url "https://github.com/bramstein/sfnt2woff/archive/master.zip"
   version "2009-10-04"
   sha256 "7713630d2f43320a1d92e2dbb014ca3201caab1dd4c0ab92816016824c680d96"
 
